@@ -1,0 +1,35 @@
+SESSION 3 — Materials Science: Property Selection Logic
+Engineers Use Logic Too
+
+Suppose you need material for aircraft:
+
+Low density
+High strength
+Corrosion resistant
+
+That becomes computational filtering.
+
+Example Property Logic
+density = 2.7
+strength = 500
+
+if density < 3 and strength > 400:
+    print("Good lightweight candidate")
+Topic 1: Common Tradeoffs
+Property A	Property B
+Strength	Ductility
+Hardness	Toughness
+Conductivity	Cost
+Weight	Durability
+Topic 2: Why CMS Uses This
+
+Later we screen thousands of alloys using code.
+
+Short Thinking Exercise
+
+Which is better for wiring?
+
+Copper high conductivity, high density
+Aluminum lower conductivity, low density
+
+Answer depends on constraints.
